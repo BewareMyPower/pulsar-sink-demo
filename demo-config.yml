@@ -1,0 +1,11 @@
+tenant: public
+namespace: default
+name: demo-sink
+parallelism: 1
+inputs:
+  - my-topic
+archive: connectors/pulsar-sink-demo-1.0.0.nar
+sourceSubscriptionName: sub
+retainOrdering: true
+processingGuarantees: ATLEAST_ONCE
+configs:

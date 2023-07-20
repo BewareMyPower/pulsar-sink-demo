@@ -1,0 +1,4 @@
+name: demo
+description: Pulsar Sink Connector Demo
+sinkClass: org.example.DemoSink
+sinkConfigClass: org.apache.pulsar.ecosystem.io.snowflake.SnowflakeSinkConfig
